@@ -1,0 +1,144 @@
+/* Frame styling */
+.frame {
+  display: inline-block;
+  width: auto;
+  padding: 15px 25px; /* Spacing inside the frame */
+  margin-right: 15px; /* Space between frames */
+  border: 2px solid #ffffff; /* Frame border color */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #12557f; /* Match the top bar background */
+  text-align: center; /* Center the text inside the frame */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.frame a {
+  text-decoration: none;
+  color: #ffffff; /* Text color inside the frame */
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame a i {
+  margin-right: 10px; /* Add spacing between icon and text */
+}
+
+.frame:hover {
+  background-color: #00cb86; /* Change background color on hover */
+  border-color: #00cb86; /* Hover border color */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.frame:hover a {
+  color: #ffffff; /* Ensure text remains white on hover */
+}
+
+/* Welcome text styling */
+.welcome-text {
+  font-size: 28px; /* Larger font size for smoother appearance */
+  font-weight: 600; /* Semi-bold text */
+  color: #ffffff; /* Text color */
+  margin: 0;
+  text-align: right; /* Align to the right */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  letter-spacing: 1px; /* Slightly space out letters */
+  transition: all 0.3s ease-in-out; /* Smooth transitions */
+}
+
+.welcome-text:hover {
+  color: #00cb86; /* Change to a lighter shade on hover */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4); /* Enhance shadow on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .left-top {
+    text-align: center; /* Center the frames on smaller screens */
+  }
+
+  .frame {
+    display: block;
+    margin: 10px auto; /* Center frames vertically */
+  }
+
+  .welcome-text {
+    text-align: center; /* Center-align text on mobile */
+    font-size: 24px; /* Slightly smaller font size for mobile */
+    margin-top: 10px;
+  }
+}
+/* Frame styling */
+.frame {
+  display: inline-block;
+  width: auto;
+  padding: 15px 25px; /* Spacing inside the frame */
+  margin-right: 15px; /* Space between frames */
+  border: 2px solid #ffffff; /* Frame border color */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #12557f; /* Match the top bar background */
+  text-align: center; /* Center the text inside the frame */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.frame a {
+  text-decoration: none;
+  color: #ffffff; /* Text color inside the frame */
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame a i {
+  margin-right: 10px; /* Add spacing between icon and text */
+}
+
+.frame:hover {
+  background-color: #00cb86; /* Change background color on hover */
+  border-color: #00cb86; /* Hover border color */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.frame:hover a {
+  color: #ffffff; /* Ensure text remains white on hover */
+}
+
+/* Welcome text styling */
+.welcome-text {
+  font-size: 28px; /* Larger font size for smoother appearance */
+  font-weight: 600; /* Semi-bold text */
+  color: #ffffff; /* Text color */
+  margin: 0;
+  text-align: right; /* Align to the right */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  letter-spacing: 1px; /* Slightly space out letters */
+  transition: all 0.3s ease-in-out; /* Smooth transitions */
+}
+
+.welcome-text:hover {
+  color: #00cb86; /* Change to a lighter shade on hover */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4); /* Enhance shadow on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .left-top {
+    text-align: center; /* Center the frames on smaller screens */
+  }
+
+  .frame {
+    display: block;
+    margin: 10px auto; /* Center frames vertically */
+  }
+
+  .welcome-text {
+    text-align: center; /* Center-align text on mobile */
+    font-size: 24px; /* Slightly smaller font size for mobile */
+    margin-top: 10px;
+  }
+}
